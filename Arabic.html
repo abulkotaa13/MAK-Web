@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M.AK مكتبة</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background-color: #0f0f0f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      color: #00ffc8;
+      font-size: 2.3em;
+      margin-bottom: 40px;
+      text-align: center;
+      text-shadow: 0 0 10px #00ffc3aa;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #00ffc3;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      margin: 15px;
+      text-decoration: none;
+      transition: all 0.4s ease;
+      box-shadow: 0 0 15px rgba(0, 255, 200, 0.05);
+    }
+
+    .download-btn:hover {
+      background-color: #00ffc3;
+      color: #000;
+      box-shadow: 0 0 25px rgba(0, 255, 200, 0.4);
+      transform: scale(1.08);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>مرحباً بكم في مكتبة M.AK</h1>
+  
+  <a href="Docs/arabic/الشرق المتشتت.pdf" download="الشرق المتشتت.pdf" class="download-btn">الشرق المتشتت</a>
+  <a href="Docs/arabic/تحدي برمودا.pdf" download="تحدي برمودا.pdf" class="download-btn">تحدي برمودا</a>
+  <a href="Docs/arabic/مركبة في ثقب اسود.pdf" download="مركبة في ثقب اسود.pdf" class="download-btn">مركبة في ثقب أسود</a>
+</body>
+
+</html>

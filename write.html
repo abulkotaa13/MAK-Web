@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAK Library</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        html {
+            background-color: #0f0f0f;
+        }
+
+        .title {
+            color: #00ffc8;
+            padding-top: 50px;
+            font-weight: 700;
+            font-size: 2.5em;
+            text-align: center;
+            letter-spacing: 1px;
+            text-shadow: 0 0 8px #00ffc8aa;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        .article-btn {
+            font-size: 1.6em;
+            color: #00ffc3;
+            margin: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 15px 30px;
+            border: 2px solid #00ffc3;
+            border-radius: 12px;
+            background: transparent;
+            transition: all 0.4s ease;
+        }
+
+        .article-btn:hover {
+            color: #000;
+            background-color: #00ffc3;
+            box-shadow: 0 0 15px rgba(0, 255, 200, 0.4);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="title">Welcome to MAK Reading Hub</h2>
+
+    <div class="links-container">
+        <a href="Arabic.html" class="article-btn">📚 مقالات بالعربية</a>
+    </div>
+</body>
+</html>
